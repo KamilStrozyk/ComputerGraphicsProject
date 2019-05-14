@@ -207,7 +207,7 @@ int main(void)
     }
 
     initOpenGLProgram(window); //Operacje inicjuj¹ce
-     Object Plane("Resources/Models/cube.obj","Resources/Models/TALTS.jpg");
+     Object Plane("Resources/Models/algoryba.obj","Resources/Models/TALTS.jpg");
 
 //===============================================================================
     //G³ówna pêtla

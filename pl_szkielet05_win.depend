@@ -1993,7 +1993,7 @@
 	<vector>
 	<sstream>
 
-1557710124 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
+1557862030 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
 	"Object.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>

@@ -173,19 +173,20 @@ cout<<"Temporary vectors ready\n";
             {
                 unsigned int normalIndex = normalInd[i];
                 glm::vec3 normal = temp_normals[ normalIndex-1 ];
-                out_normals.push_back(normal.x);
+
+                 out_normals.push_back(normal.x);
                 out_normals.push_back(normal.y);
                 out_normals.push_back(normal.z);
-                out_vertices.push_back(0.0f);
+                 out_normals.push_back(0.0f);
             }
 /*int c=0;
-            for(int i=0;i<out_vertices.size();i++)
+            for(int i=0;i<out_normals.size();i++)
             {
 
-                cout<<out_vertices[i]<<",";
+                cout<<out_normals[i]<<",";
 c++;
-if(c==3){cout<<endl;c=0;}
-            }*/
+if(c==4){cout<<endl;c=0;}
+            }//*/
 
             cout<<"Model loaded successful"<<endl;
         }
