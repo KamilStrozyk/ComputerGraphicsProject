@@ -1039,7 +1039,7 @@
 	<iostream>
 	"lodepng.h"
 
-1558051254 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
+1558112950 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1982,7 +1982,7 @@
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\myteapot.h
 
-1558027681 c:\users\kamil\desktop\computergraphicsproject\object.h
+1558113863 c:\users\kamil\desktop\computergraphicsproject\object.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1994,7 +1994,7 @@
 	<vector>
 	<sstream>
 
-1558027694 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
+1558113821 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
 	"Object.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>

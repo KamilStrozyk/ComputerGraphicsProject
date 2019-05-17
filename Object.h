@@ -17,13 +17,30 @@
 #include<vector>
 #include <sstream>
 using namespace std;
+class Collider
+{
+public:
+    Collider(glm::vec3 c, float x, float y, float z);
+    Collider();
+    bool isCollisionDetected(glm:: vec3 plane_center, float X, float Y, float Z);
+    glm::vec3 GetCenter();
+    float GetX();
+    float GetY();
+    float GetZ();
+private:
+    glm::vec3 center;
+    float size_x;
+    float size_y;
+    float size_z;
 
+};
 class Object
 {
 public:
     Object();
     Object(string ObjPath, const char* TexPath);
     void Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M);
+
 
 private:
     vector< unsigned int > vertexInd, uvInd, normalInd;

@@ -66,6 +66,7 @@ float speed_y=0;
 float aspectRatio=1;
 float angle_plane=0.0f;
 ShaderProgram *sp;
+Collider cols[40];
 //===============================================================================
 //Procedura obs³ugi b³êdów
 void error_callback(int error, const char* description)
@@ -124,7 +125,21 @@ void windowResizeCallback(GLFWwindow* window,int width,int pos_y)
     aspectRatio=(float)width/(float)pos_y;
     glViewport(0,0,width,pos_y);
 }
+void WriteConstColliders()
+{
 
+    cols[30]=Collider(glm::vec3(0.0f,-1.0f,0.0f),100.0f,1.0f,100.0f);
+    for(int i=0; i<=30; i++)
+    {
+
+        cols[i]=Collider(glm::vec3(0.0f,i,i+20),1.0f,1.0f,1.0f);
+
+
+
+
+    }
+
+}
 //Procedura inicjuj¹ca
 void initOpenGLProgram(GLFWwindow* window)
 {
@@ -135,7 +150,7 @@ void initOpenGLProgram(GLFWwindow* window)
     glfwSetKeyCallback(window,keyCallback);
 
     sp=new ShaderProgram("vertex.glsl",NULL,"fragment.glsl");
-
+    WriteConstColliders();
 }
 
 
@@ -155,67 +170,78 @@ void drawScene(GLFWwindow* window,float angle_z,float angle_y, Object * O, Objec
 {
     //************Tutaj umieszczaj kod rysuj¹cy obraz******************l
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-glm::mat4 M,V,P;
+    glm::mat4 M,V,P;
 
+//===============================================================================
+//pozostale obiekty
+
+    M=glm::mat4(1.0f);
+    M=glm::translate(M, glm::vec3(0.0f,-1.0f,0.0f));
+
+    G->Draw(sp,P,V,M);
+    for(int i=0; i<=30; i++)
+    {
+        M=glm::mat4(1.0f);
+        M=glm::translate(M, glm::vec3(0.0f,i,i+20));
+
+        O->Draw(sp,P,V,M);
+
+
+
+    }
 
 
 
 //===============================================================================
 //Pozycja Kamery
 
- V=glm::lookAt(
-                    glm::vec3(pos_x, pos_y, pos_z-5),
-                    glm::vec3(pos_x,pos_y,pos_z),
-                    glm::vec3(0.0f,1.0f,0.0f)); //Wylicz macierz widoku
+    V=glm::lookAt(
+          glm::vec3(pos_x, pos_y, pos_z-5),
+          glm::vec3(pos_x,pos_y,pos_z),
+          glm::vec3(0.0f,1.0f,0.0f)); //Wylicz macierz widoku
 
-   P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 50.0f); //Wylicz macierz rzutowania
+    P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 50.0f); //Wylicz macierz rzutowania
 // V=glm::rotate(V,angle_z,glm::vec3(1.0f,0.0f,0.0f));
-  V=glm::rotate(V,angle_y,glm::vec3(-0.5f,0.0f,0.0f));
-V=glm::rotate(V,angle_plane,glm::vec3(0.0f,0.5f,0.0f));
+    V=glm::rotate(V,angle_y,glm::vec3(-0.5f,0.0f,0.0f));
+    V=glm::rotate(V,angle_plane,glm::vec3(0.0f,0.5f,0.0f));
 
 
 //===============================================================================
 //Pozycja samolotu
 
- M=glm::mat4(1.0f);
-   // if(phase==Flight&& flightSpeed<=0)
-  // M=glm::rotate(M,angle_z,glm::vec3(1.0f,0.0f,0.0f));
- //  M=glm::rotate(M,angle_z,glm::vec3(0.0f,1.0f,0.0f));
- M=glm::rotate(M,angle_plane,glm::vec3(0.0f,-1.0f,0.0f));
-  M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
-        M=glm::translate(M, glm::vec3(pos_x,pos_y,pos_z));
-       // gluLookAt(0, pos_y,pos_z -5,0,pos_y,pos_z, 0, 1, 0);
- M=glm::rotate(M,angle_z,glm::vec3(0.0f,0.0f,1.0f));
- M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
-      //  V=glm::translate(V, glm::vec3(0.0f,pos_y,pos_z));
-     //Wylicz macierz modelu
-     //Wylicz macierz modelu
+    M=glm::mat4(1.0f);
+    // if(phase==Flight&& flightSpeed<=0)
+    // M=glm::rotate(M,angle_z,glm::vec3(1.0f,0.0f,0.0f));
+//  M=glm::rotate(M,angle_z,glm::vec3(0.0f,1.0f,0.0f));
+    M=glm::rotate(M,angle_plane,glm::vec3(0.0f,-1.0f,0.0f));
+    M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
+    M=glm::translate(M, glm::vec3(pos_x,pos_y,pos_z));
+    // gluLookAt(0, pos_y,pos_z -5,0,pos_y,pos_z, 0, 1, 0);
+    M=glm::rotate(M,angle_z,glm::vec3(0.0f,0.0f,1.0f));
+    M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
+    //  V=glm::translate(V, glm::vec3(0.0f,pos_y,pos_z));
+    //Wylicz macierz modelu
+    //Wylicz macierz modelu
 
-        glUniform4f(sp->u("lp"),0,0,-6,1); //Współrzędne źródła światła
+    glUniform4f(sp->u("lp"),0,0,-6,1); //Współrzędne źródła światła
 
-
+    // cols[31]=Collider(glm::vec3(pos_x,pos_y,pos_z),1.5f,1.5f,1.5f);
     sp->use();//Aktywacja programu cieniuj¹cego
     //Przeslij parametry programu cieniuj¹cego do karty graficzne
-O->Draw(sp,P,V,M);
+    O->Draw(sp,P,V,M);
 
 //===============================================================================
-//pozostale obiekty
+//Kolizje
 
-M=glm::mat4(1.0f);
-M=glm::translate(M, glm::vec3(0.0f,-1.0f,0.0f));
-G->Draw(sp,P,V,M);
-for(int i=0;i<=30;i++)
-{
-    M=glm::mat4(1.0f);
-M=glm::translate(M, glm::vec3(0.0f,i,i+20));
-O->Draw(sp,P,V,M);
+ /*  for(int i=0; i<=30; i++)
+    {
+    if(cols[i].isCollisionDetected(cols[31])) cout<<"DETECTED\n";
 
-
-
-}
-
+    } */
+    if(cols[30].isCollisionDetected(glm::vec3(pos_x,pos_y,pos_z),1.5f,1.5f,1.5f)) cout<<"GROUND DETECTED\n";
 
 //===============================================================================
+
 
     glfwSwapBuffers(window); //Przerzuæ tylny bufor na przedni
 }
@@ -254,8 +280,8 @@ int main(void)
     }
 
     initOpenGLProgram(window); //Operacje inicjuj¹ce
-     Object Plane("Resources/Models/cube.obj","Resources/Models/TALTS.jpg");
-     Object Ground("Resources/Models/Ground.obj","Resources/Models/TALTS.jpg");
+    Object Plane("Resources/Models/cube.obj","Resources/Models/TALTS.jpg");
+    Object Ground("Resources/Models/Ground.obj","Resources/Models/TALTS.jpg");
 
 //===============================================================================
     //G³ówna pêtla
@@ -275,10 +301,14 @@ int main(void)
         case Flight:
             angle_z+=speed_z*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
             angle_plane+=speed_z*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
-            if(angle_z>= angle_z_max) angle_z=angle_z_max;
-            if(angle_z<= angle_z_min) angle_z=angle_z_min;
-              if(angle_y>= angle_y_max) angle_y=angle_y_max;
-            if(angle_y<= angle_y_min) angle_y=angle_y_min;
+            if(angle_z>= angle_z_max)
+                angle_z=angle_z_max;
+            if(angle_z<= angle_z_min)
+                angle_z=angle_z_min;
+            if(angle_y>= angle_y_max)
+                angle_y=angle_y_max;
+            if(angle_y<= angle_y_min)
+                angle_y=angle_y_min;
             angle_y+=speed_y*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
             pos_z+=speed*glfwGetTime();
             pos_x+=30*-angle_z*(Cz*p*S*speed*speed/2-g*m)/(2*m)*glfwGetTime()*glfwGetTime();

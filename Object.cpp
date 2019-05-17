@@ -21,31 +21,31 @@ using namespace std;
 //===============================================================================
 
 
-    Object::Object(string ObjPath, const char* TexPath)
-    {
+Object::Object(string ObjPath, const char* TexPath)
+{
 
     LoadModel(ObjPath);
 
     tex=readTexture(TexPath);
-    }
-    void Object::Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M)
-    {
+}
+void Object::Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M)
+{
     float *ver= out_vertices.data();
     float *nor=out_normals.data();
     float *uv=out_uvs.data();
     int c=0;
- /*   for(int i=0;i<=out_vertices.size();i++)
-    {
-        cout<<ver[i]<<",";
-c++;
-if(c==4){cout<<endl;c=0;}
+    /*   for(int i=0;i<=out_vertices.size();i++)
+       {
+           cout<<ver[i]<<",";
+    c++;
+    if(c==4){cout<<endl;c=0;}
 
-    }
-    getch(); */
+       }
+       getch(); */
 
-std::copy(out_vertices.begin(), out_vertices.end(), ver);
-std::copy(out_normals.begin(), out_normals.end(), nor);
-std::copy(out_uvs.begin(), out_uvs.end(), uv);
+    std::copy(out_vertices.begin(), out_vertices.end(), ver);
+    std::copy(out_normals.begin(), out_normals.end(), nor);
+    std::copy(out_uvs.begin(), out_uvs.end(), uv);
 
 
 
@@ -54,7 +54,7 @@ std::copy(out_uvs.begin(), out_uvs.end(), uv);
     glUniformMatrix4fv(sp->u("P"),1,false,glm::value_ptr(P));
     glUniformMatrix4fv(sp->u("V"),1,false,glm::value_ptr(V));
     glUniformMatrix4fv(sp->u("M"),1,false,glm::value_ptr(M));
-     glUniform1i(sp->u("textureMap0"),0);
+    glUniform1i(sp->u("textureMap0"),0);
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D,tex);
 
@@ -72,167 +72,226 @@ std::copy(out_uvs.begin(), out_uvs.end(), uv);
     glDisableVertexAttribArray(sp->a("normal"));  //Wy³¹cz przesy³anie danych do atrybutu normal
     glDisableVertexAttribArray(sp->a("texCoord0"));  //Wy³¹cz przesy³anie danych do atrybutu color
 
-    }
+}
 
- // virtual ~ Object ();
+// virtual ~ Object ();
 void Object::LoadModel(string path)
-    {
-                vector< glm::vec3 > temp_vertices;
+{
+    vector< glm::vec3 > temp_vertices;
     vector< glm::vec2 > temp_uvs;
     vector< glm::vec3 > temp_normals;
-        file.open(path.c_str());
-        if(file.good())
+    file.open(path.c_str());
+    if(file.good())
+    {
+        cout<<"File opened:"<<path<<endl;
+
+        while(!file.eof())
         {
-            cout<<"File opened:"<<path<<endl;
-
-            while(!file.eof())
+            string first;
+            file>>first;
+            //  cout<<first<<endl;
+            if(first=="v") //wierzcholki
             {
-                string first;
-                file>>first;
-              //  cout<<first<<endl;
-               if(first=="v") //wierzcholki
-                  {
 
-                   glm::vec3 vertex;
-                    file>>vertex.x>>vertex.y>>vertex.z;
+                glm::vec3 vertex;
+                file>>vertex.x>>vertex.y>>vertex.z;
 
-                    temp_vertices.push_back(vertex);
-                    }
-              else if( first=="vt") {//wierzcholki z uv
-                    glm::vec2 uv;
-                    file>>uv.x>>uv.y;
-                    temp_uvs.push_back(uv);
-                    }
-                else if(first=="vn"){ //normale
-                    glm::vec3 normal;
-                    file>>normal.x>>normal.y>>normal.z;
-                    temp_normals.push_back(normal);
-                    }
-                else if(first=="f"){//face
+                temp_vertices.push_back(vertex);
+            }
+            else if( first=="vt")  //wierzcholki z uv
+            {
+                glm::vec2 uv;
+                file>>uv.x>>uv.y;
+                temp_uvs.push_back(uv);
+            }
+            else if(first=="vn")  //normale
+            {
+                glm::vec3 normal;
+                file>>normal.x>>normal.y>>normal.z;
+                temp_normals.push_back(normal);
+            }
+            else if(first=="f") //face
+            {
 
-                    string vertexIndex[3], uvIndex[3], normalIndex[3];
-                    string info[3];
+                string vertexIndex[3], uvIndex[3], normalIndex[3];
+                string info[3];
 
-                    file>>info[0]>>info[1]>>info[2];
-                    for(int j=0;j<3;j++){
+                file>>info[0]>>info[1]>>info[2];
+                for(int j=0; j<3; j++)
+                {
                     int p=0;
-                    for(int i=0;i<=info[j].size();i++)
+                    for(int i=0; i<=info[j].size(); i++)
                     {
-                        if((p==0)&&info[j][i]!='/') vertexIndex[j]=vertexIndex[j]+info[j][i];
-                       else if((p==1)&&info[j][i]!='/') uvIndex[j]=uvIndex[j]+info[j][i];
-                        else if((p==2)&&info[j][i]!='/') normalIndex[j]=normalIndex[j]+info[j][i];
+                        if((p==0)&&info[j][i]!='/')
+                            vertexIndex[j]=vertexIndex[j]+info[j][i];
+                        else if((p==1)&&info[j][i]!='/')
+                            uvIndex[j]=uvIndex[j]+info[j][i];
+                        else if((p==2)&&info[j][i]!='/')
+                            normalIndex[j]=normalIndex[j]+info[j][i];
 
-                        else{
+                        else
+                        {
                             p++;
                         }
 
 
                     }
 
-                    }
+                }
 
-                    vertexInd.push_back(strtoint(vertexIndex[0]));
-                    vertexInd.push_back(strtoint(vertexIndex[1]));
-                    vertexInd.push_back(strtoint(vertexIndex[2]));
-                    uvInd    .push_back(strtoint(uvIndex[0]));
-                    uvInd    .push_back(strtoint(uvIndex[1]));
-                    uvInd    .push_back(strtoint(uvIndex[2]));
-                    normalInd.push_back(strtoint(normalIndex[0]));
-                    normalInd.push_back(strtoint(normalIndex[1]));
-                    normalInd.push_back(strtoint(normalIndex[2]));
-                   }
+                vertexInd.push_back(strtoint(vertexIndex[0]));
+                vertexInd.push_back(strtoint(vertexIndex[1]));
+                vertexInd.push_back(strtoint(vertexIndex[2]));
+                uvInd    .push_back(strtoint(uvIndex[0]));
+                uvInd    .push_back(strtoint(uvIndex[1]));
+                uvInd    .push_back(strtoint(uvIndex[2]));
+                normalInd.push_back(strtoint(normalIndex[0]));
+                normalInd.push_back(strtoint(normalIndex[1]));
+                normalInd.push_back(strtoint(normalIndex[2]));
+            }
 
-              else{
-
-
-              }
-
-
-
-
-              //  file>>first; //pozbywamy sie konca wiersza
-             //   cout<<first<<endl;
- }
-cout<<"Temporary vectors ready\n";
-            for( unsigned int i=0; i<vertexInd.size(); i++ )
+            else
             {
-                unsigned int vertexIndex = vertexInd[i];
-                glm::vec3 vertex = temp_vertices[ vertexIndex-1 ];
-               // cout<<vertexIndex-1<<":"<<vertex.x<<" "<<vertex.y<<" "<<vertex.z<<endl;
 
-                out_vertices.push_back(vertex.x);
-                out_vertices.push_back(vertex.y);
-                out_vertices.push_back(vertex.z);
-                out_vertices.push_back(1.0f);
 
             }
-            for( unsigned int i=0; i<uvInd.size(); i++ )
-            {
-                unsigned int uvIndex = uvInd[i];
-                glm::vec2 uv = temp_uvs[ uvIndex-1 ];
-                out_uvs.push_back(uv.x);
-                out_uvs.push_back(uv.y);
 
-            }
-            for( unsigned int i=0; i<normalInd.size(); i++ )
-            {
-                unsigned int normalIndex = normalInd[i];
-                glm::vec3 normal = temp_normals[ normalIndex-1 ];
 
-                 out_normals.push_back(normal.x);
-                out_normals.push_back(normal.y);
-                out_normals.push_back(normal.z);
-                 out_normals.push_back(0.0f);
-            }
-/*int c=0;
-            for(int i=0;i<out_normals.size();i++)
-            {
 
-                cout<<out_normals[i]<<",";
-c++;
-if(c==4){cout<<endl;c=0;}
-            }//*/
 
-            cout<<"Model loaded successful"<<endl;
+            //  file>>first; //pozbywamy sie konca wiersza
+            //   cout<<first<<endl;
         }
-        else{
-            cout<<"Couldn't open file:"<<path<<endl;
-        }
-        file.close();
+        cout<<"Temporary vectors ready\n";
+        for( unsigned int i=0; i<vertexInd.size(); i++ )
+        {
+            unsigned int vertexIndex = vertexInd[i];
+            glm::vec3 vertex = temp_vertices[ vertexIndex-1 ];
+            // cout<<vertexIndex-1<<":"<<vertex.x<<" "<<vertex.y<<" "<<vertex.z<<endl;
 
+            out_vertices.push_back(vertex.x);
+            out_vertices.push_back(vertex.y);
+            out_vertices.push_back(vertex.z);
+            out_vertices.push_back(1.0f);
+
+        }
+        for( unsigned int i=0; i<uvInd.size(); i++ )
+        {
+            unsigned int uvIndex = uvInd[i];
+            glm::vec2 uv = temp_uvs[ uvIndex-1 ];
+            out_uvs.push_back(uv.x);
+            out_uvs.push_back(uv.y);
+
+        }
+        for( unsigned int i=0; i<normalInd.size(); i++ )
+        {
+            unsigned int normalIndex = normalInd[i];
+            glm::vec3 normal = temp_normals[ normalIndex-1 ];
+
+            out_normals.push_back(normal.x);
+            out_normals.push_back(normal.y);
+            out_normals.push_back(normal.z);
+            out_normals.push_back(0.0f);
+        }
+        /*int c=0;
+                    for(int i=0;i<out_normals.size();i++)
+                    {
+
+                        cout<<out_normals[i]<<",";
+        c++;
+        if(c==4){cout<<endl;c=0;}
+                    }//*/
+
+        cout<<"Model loaded successful"<<endl;
     }
+    else
+    {
+        cout<<"Couldn't open file:"<<path<<endl;
+    }
+    file.close();
+
+}
 //Funkcja wczytująca teksturę
-GLuint Object::readTexture(const char* filename) {
-  GLuint tex;
-  glActiveTexture(GL_TEXTURE0);
+GLuint Object::readTexture(const char* filename)
+{
+    GLuint tex;
+    glActiveTexture(GL_TEXTURE0);
 
-  //Wczytanie do pamięci komputera
-  std::vector<unsigned char> image;   //Alokuj wektor do wczytania obrazka
-  unsigned width, height;   //Zmienne do których wczytamy wymiary obrazka
-  //Wczytaj obrazek
-  unsigned error = lodepng::decode(image, width, height, filename);
+    //Wczytanie do pamięci komputera
+    std::vector<unsigned char> image;   //Alokuj wektor do wczytania obrazka
+    unsigned width, height;   //Zmienne do których wczytamy wymiary obrazka
+    //Wczytaj obrazek
+    unsigned error = lodepng::decode(image, width, height, filename);
 
-  //Import do pamięci karty graficznej
-  glGenTextures(1,&tex); //Zainicjuj jeden uchwyt
-  glBindTexture(GL_TEXTURE_2D, tex); //Uaktywnij uchwyt
-  //Wczytaj obrazek do pamięci KG skojarzonej z uchwytem
-  glTexImage2D(GL_TEXTURE_2D, 0, 4, width, height, 0,
-    GL_RGBA, GL_UNSIGNED_BYTE, (unsigned char*) image.data());
+    //Import do pamięci karty graficznej
+    glGenTextures(1,&tex); //Zainicjuj jeden uchwyt
+    glBindTexture(GL_TEXTURE_2D, tex); //Uaktywnij uchwyt
+    //Wczytaj obrazek do pamięci KG skojarzonej z uchwytem
+    glTexImage2D(GL_TEXTURE_2D, 0, 4, width, height, 0,
+                 GL_RGBA, GL_UNSIGNED_BYTE, (unsigned char*) image.data());
 
-  glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-  glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-  return tex;
+    return tex;
 }
 unsigned int Object::strtoint(string s)
 {
-unsigned int i;
-std::istringstream istr(s);
+    unsigned int i;
+    std::istringstream istr(s);
 
-istr >> i;
+    istr >> i;
 
     return i;
 }
+glm::vec3 Collider::GetCenter()
+{
+return center;
+}
+float Collider::GetX()
+{
 
+   return size_x;
+}
+float Collider::GetY()
+{
+
+   return size_y;
+}
+float Collider::GetZ()
+{
+
+   return size_z;
+}
+
+Collider::Collider(glm::vec3 c, float x, float y, float z)
+{
+    center=c;
+    size_x=x;
+    size_y=y;
+    size_z=z;
+
+}
+Collider::Collider()
+{
+    center=glm::vec3(0.0f,0.0f,0.0f);
+    size_x=0;
+    size_y=0;
+    size_z=0;
+
+}
+bool Collider::isCollisionDetected(glm:: vec3 plane_center, float X, float Y, float Z)
+{
+    // Collision x-axis?
+    bool collisionX = center.x + size_x >= plane_center.x &&
+        plane_center.x +X >= center.x;
+  bool collisionY = center.y + size_y >= plane_center.y &&
+        plane_center.y + Y >= center.y;
+  bool collisionZ = center.z + size_z >= plane_center.z &&
+        plane_center.z + Z >= center.z;
+
+
+    return (collisionX && collisionY)||(collisionX && collisionZ)||(collisionZ && collisionY);
+}
 
 
