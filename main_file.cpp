@@ -40,6 +40,7 @@ Place, Fifth Floor, Boston, MA  02110 - 1301  USA
 #include <sstream>
 #include<conio.h>
 #include "Object.h"
+#include<cmath>
 using namespace std;
 
 
@@ -56,11 +57,14 @@ enum Phase
 };
 //===============================================================================
 Phase phase=Flight;
-float addSpeed=10;
-float speed;
+float pos_y=0;
+float pos_z=0;
+float pos_x=0;
+float speed=0;
 float speed_z=0;
 float speed_y=0;
 float aspectRatio=1;
+float angle_plane=0.0f;
 ShaderProgram *sp;
 //===============================================================================
 //Procedura obs³ugi b³êdów
@@ -78,16 +82,16 @@ void keyCallback(GLFWwindow* window,int key,int scancode,int action,int mods)
         {
         case Flight:
             if (key==GLFW_KEY_LEFT)
-                speed_z=-PI/2;
+                speed_z=-PI/6;
             if (key==GLFW_KEY_RIGHT)
-                speed_z=PI/2;
+                speed_z=PI/6;
             if (key==GLFW_KEY_UP)
-                speed_y=PI/2;
+                speed_y=PI/6;
             if (key==GLFW_KEY_DOWN)
-                speed_y=-PI/2;
+                speed_y=-PI/6;
 
             if(key==GLFW_KEY_W)
-                speed=addSpeed;
+                speed+=addSpeed;
             if(key==GLFW_KEY_S)
                 speed=-addSpeed;
 
@@ -113,12 +117,12 @@ void keyCallback(GLFWwindow* window,int key,int scancode,int action,int mods)
     }
 }
 
-void windowResizeCallback(GLFWwindow* window,int width,int height)
+void windowResizeCallback(GLFWwindow* window,int width,int pos_y)
 {
-    if (height==0)
+    if (pos_y==0)
         return;
-    aspectRatio=(float)width/(float)height;
-    glViewport(0,0,width,height);
+    aspectRatio=(float)width/(float)pos_y;
+    glViewport(0,0,width,pos_y);
 }
 
 //Procedura inicjuj¹ca
@@ -147,29 +151,72 @@ void freeOpenGLProgram(GLFWwindow* window)
 
 
 //Procedura rysuj¹ca zawartoœæ sceny
-void drawScene(GLFWwindow* window,float angle_z,float angle_y, float flightSpeed,float pos, Object * O)
+void drawScene(GLFWwindow* window,float angle_z,float angle_y, Object * O, Object * G)
 {
     //************Tutaj umieszczaj kod rysuj¹cy obraz******************l
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+glm::mat4 M,V,P;
 
-    glm::mat4 V=glm::lookAt(
-                    glm::vec3(0, 0, -5),
-                    glm::vec3(0,0,0),
+
+
+
+//===============================================================================
+//Pozycja Kamery
+
+ V=glm::lookAt(
+                    glm::vec3(pos_x, pos_y, pos_z-5),
+                    glm::vec3(pos_x,pos_y,pos_z),
                     glm::vec3(0.0f,1.0f,0.0f)); //Wylicz macierz widoku
 
-    glm::mat4 P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 50.0f); //Wylicz macierz rzutowania
+   P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 50.0f); //Wylicz macierz rzutowania
+// V=glm::rotate(V,angle_z,glm::vec3(1.0f,0.0f,0.0f));
+  V=glm::rotate(V,angle_y,glm::vec3(-0.5f,0.0f,0.0f));
+V=glm::rotate(V,angle_plane,glm::vec3(0.0f,0.5f,0.0f));
 
-    glm::mat4 M=glm::mat4(1.0f);
-    if(phase==Flight&& flightSpeed<=0)
-        M=glm::translate(M, glm::vec3(0.0f,1.0f,0.0f));
-    M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f)); //Wylicz macierz modelu
-    M=glm::rotate(M,angle_z,glm::vec3(0.0f,0.0f,1.0f)); //Wylicz macierz modelu
 
+//===============================================================================
+//Pozycja samolotu
+
+ M=glm::mat4(1.0f);
+   // if(phase==Flight&& flightSpeed<=0)
+  // M=glm::rotate(M,angle_z,glm::vec3(1.0f,0.0f,0.0f));
+ //  M=glm::rotate(M,angle_z,glm::vec3(0.0f,1.0f,0.0f));
+ M=glm::rotate(M,angle_plane,glm::vec3(0.0f,-1.0f,0.0f));
+  M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
+        M=glm::translate(M, glm::vec3(pos_x,pos_y,pos_z));
+       // gluLookAt(0, pos_y,pos_z -5,0,pos_y,pos_z, 0, 1, 0);
+ M=glm::rotate(M,angle_z,glm::vec3(0.0f,0.0f,1.0f));
+ M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
+      //  V=glm::translate(V, glm::vec3(0.0f,pos_y,pos_z));
+     //Wylicz macierz modelu
+     //Wylicz macierz modelu
+
+        glUniform4f(sp->u("lp"),0,0,-6,1); //Współrzędne źródła światła
 
 
     sp->use();//Aktywacja programu cieniuj¹cego
-    //Przeslij parametry programu cieniuj¹cego do karty graficznej
+    //Przeslij parametry programu cieniuj¹cego do karty graficzne
 O->Draw(sp,P,V,M);
+
+//===============================================================================
+//pozostale obiekty
+
+M=glm::mat4(1.0f);
+M=glm::translate(M, glm::vec3(0.0f,-1.0f,0.0f));
+G->Draw(sp,P,V,M);
+for(int i=0;i<=30;i++)
+{
+    M=glm::mat4(1.0f);
+M=glm::translate(M, glm::vec3(0.0f,i,i+20));
+O->Draw(sp,P,V,M);
+
+
+
+}
+
+
+//===============================================================================
+
     glfwSwapBuffers(window); //Przerzuæ tylny bufor na przedni
 }
 
@@ -207,15 +254,14 @@ int main(void)
     }
 
     initOpenGLProgram(window); //Operacje inicjuj¹ce
-     Object Plane("Resources/Models/algoryba.obj","Resources/Models/TALTS.jpg");
+     Object Plane("Resources/Models/cube.obj","Resources/Models/TALTS.jpg");
+     Object Ground("Resources/Models/Ground.obj","Resources/Models/TALTS.jpg");
 
 //===============================================================================
     //G³ówna pêtla
     float angle_z=0; //Aktualny k¹t obrotu obiektu
     float angle_y=0; //Aktualny k¹t obrotu obiektu
-    float flightSpeed=0;
-    float height=0;
-    float pos=0;
+
     glfwSetTime(0); //Zeruj timer
 
     while (!glfwWindowShouldClose(window)) //Tak d³ugo jak okno nie powinno zostaæ zamkniête
@@ -228,10 +274,15 @@ int main(void)
             break;
         case Flight:
             angle_z+=speed_z*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
+            angle_plane+=speed_z*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
+            if(angle_z>= angle_z_max) angle_z=angle_z_max;
+            if(angle_z<= angle_z_min) angle_z=angle_z_min;
+              if(angle_y>= angle_y_max) angle_y=angle_y_max;
+            if(angle_y<= angle_y_min) angle_y=angle_y_min;
             angle_y+=speed_y*glfwGetTime(); //Zwiêksz/zmniejsz k¹t obrotu na podstawie prêdkoœci i czasu jaki up³yna³ od poprzedniej klatki
-            flightSpeed+=speed*glfwGetTime(); //dodaj predkosci samolotu
-            pos+=flightSpeed;
-            height+=flightSpeed;
+            pos_z+=speed*glfwGetTime();
+            pos_x+=30*-angle_z*(Cz*p*S*speed*speed/2-g*m)/(2*m)*glfwGetTime()*glfwGetTime();
+            pos_y+=/*30*sin(angle_y)*/(Cz*p*S*speed*speed/2-g*m)/(2*m)*glfwGetTime()*glfwGetTime();//- g*glfwGetTime();
             break;
         case Landing:
             break;
@@ -244,7 +295,7 @@ int main(void)
             break;
         }
         glfwSetTime(0); //Zeruj timer
-        drawScene(window,angle_z,angle_y, flightSpeed,pos,&Plane); //Wykonaj procedurê rysuj¹c¹
+        drawScene(window,angle_z,angle_y,&Plane,&Ground); //Wykonaj procedurê rysuj¹c¹
         glfwPollEvents(); //Wykonaj procedury callback w zaleznoœci od zdarzeñ jakie zasz³y.
 
     }

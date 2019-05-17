@@ -22,8 +22,9 @@ class Object
 {
 public:
     Object();
-    Object(string ObjPath, string TexPath);
+    Object(string ObjPath, const char* TexPath);
     void Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M);
+
 private:
     vector< unsigned int > vertexInd, uvInd, normalInd;
 
@@ -33,7 +34,7 @@ private:
     ifstream file;
     GLuint tex;
     void LoadModel(string path);
-    GLuint readTexture(string filename);
+    GLuint readTexture(const char* filename);
     unsigned int strtoint(string s);
 
 };

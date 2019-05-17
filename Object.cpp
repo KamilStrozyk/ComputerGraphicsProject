@@ -21,9 +21,11 @@ using namespace std;
 //===============================================================================
 
 
-    Object::Object(string ObjPath, string TexPath)
+    Object::Object(string ObjPath, const char* TexPath)
     {
+
     LoadModel(ObjPath);
+
     tex=readTexture(TexPath);
     }
     void Object::Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M)
@@ -52,6 +54,9 @@ std::copy(out_uvs.begin(), out_uvs.end(), uv);
     glUniformMatrix4fv(sp->u("P"),1,false,glm::value_ptr(P));
     glUniformMatrix4fv(sp->u("V"),1,false,glm::value_ptr(V));
     glUniformMatrix4fv(sp->u("M"),1,false,glm::value_ptr(M));
+     glUniform1i(sp->u("textureMap0"),0);
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D,tex);
 
     glEnableVertexAttribArray(sp->a("vertex"));  //W³¹cz przesy³anie danych do atrybutu vertex
     glVertexAttribPointer(sp->a("vertex"),4,GL_FLOAT,false,0,ver); //Wska¿ tablicê z danymi dla atrybutu vertex
@@ -59,13 +64,13 @@ std::copy(out_uvs.begin(), out_uvs.end(), uv);
     glEnableVertexAttribArray(sp->a("normal"));  //W³¹cz przesy³anie danych do atrybutu normal
     glVertexAttribPointer(sp->a("normal"),4,GL_FLOAT,false,0,nor); //Wska¿ tablicê z danymi dla atrybutu normal
 
-    glEnableVertexAttribArray(sp->a("color"));  //W³¹cz przesy³anie danych do atrybutu color
-    glVertexAttribPointer(sp->a("color"),4,GL_FLOAT,false,0,uv); //Wska¿ tablicê z danymi dla atrybutu color
+    glEnableVertexAttribArray(sp->a("texCoord0"));  //W³¹cz przesy³anie danych do atrybutu color
+    glVertexAttribPointer(sp->a("texCoord0"),4,GL_FLOAT,false,0,uv); //Wska¿ tablicê z danymi dla atrybutu color
 
     glDrawArrays(GL_TRIANGLES,0,vertexCount); //Narysuj obiekt
     glDisableVertexAttribArray(sp->a("vertex"));  //Wy³¹cz przesy³anie danych do atrybutu vertex
     glDisableVertexAttribArray(sp->a("normal"));  //Wy³¹cz przesy³anie danych do atrybutu normal
-    glDisableVertexAttribArray(sp->a("color"));  //Wy³¹cz przesy³anie danych do atrybutu color
+    glDisableVertexAttribArray(sp->a("texCoord0"));  //Wy³¹cz przesy³anie danych do atrybutu color
 
     }
 
@@ -196,7 +201,8 @@ if(c==4){cout<<endl;c=0;}
         file.close();
 
     }
-GLuint Object::readTexture(string filename) {
+//Funkcja wczytująca teksturę
+GLuint Object::readTexture(const char* filename) {
   GLuint tex;
   glActiveTexture(GL_TEXTURE0);
 

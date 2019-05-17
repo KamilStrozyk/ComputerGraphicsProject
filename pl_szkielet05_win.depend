@@ -1039,7 +1039,7 @@
 	<iostream>
 	"lodepng.h"
 
-1557710313 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
+1558051254 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1058,6 +1058,7 @@
 	<sstream>
 	<conio.h>
 	"Object.h"
+	<cmath>
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\glew\include\gl\glew.h
 	<stddef.h>
@@ -1971,7 +1972,7 @@
 1556994900 c:\users\kamil\desktop\computergraphicsproject\glm\gtc\type_ptr.inl
 	<cstring>
 
-1556996984 c:\users\kamil\desktop\computergraphicsproject\constants.h
+1558049595 c:\users\kamil\desktop\computergraphicsproject\constants.h
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\shaderprogram.h
 	"GL/glew.h"
@@ -1981,7 +1982,7 @@
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\myteapot.h
 
-1557710256 c:\users\kamil\desktop\computergraphicsproject\object.h
+1558027681 c:\users\kamil\desktop\computergraphicsproject\object.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1993,7 +1994,7 @@
 	<vector>
 	<sstream>
 
-1557862030 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
+1558027694 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
 	"Object.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>
