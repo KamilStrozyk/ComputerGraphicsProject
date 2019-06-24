@@ -46,6 +46,8 @@
 			<Add directory="glfw/lib" />
 			<Add directory="glew/lib" />
 		</Linker>
+		<Unit filename="Colliders.cpp" />
+		<Unit filename="Colliders.h" />
 		<Unit filename="Object.cpp" />
 		<Unit filename="Object.h" />
 		<Unit filename="constants.h" />

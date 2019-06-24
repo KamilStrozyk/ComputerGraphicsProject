@@ -1039,7 +1039,7 @@
 	<iostream>
 	"lodepng.h"
 
-1558112950 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
+1561413065 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1050,14 +1050,14 @@
 	"constants.h"
 	"lodepng.h"
 	"shaderprogram.h"
-	"myCube.h"
-	"myTeapot.h"
+	<ctime>
 	<string>
 	<fstream>
 	<iostream>
 	<sstream>
 	<conio.h>
 	"Object.h"
+	"Colliders.h"
 	<cmath>
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\glew\include\gl\glew.h
@@ -1982,7 +1982,7 @@
 
 1556994892 c:\users\kamil\desktop\computergraphicsproject\myteapot.h
 
-1558113863 c:\users\kamil\desktop\computergraphicsproject\object.h
+1561398482 c:\users\kamil\desktop\computergraphicsproject\object.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1994,7 +1994,7 @@
 	<vector>
 	<sstream>
 
-1558113821 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
+1561396357 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
 	"Object.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>
@@ -2005,6 +2005,7 @@
 	<stdio.h>
 	"lodepng.h"
 	"shaderprogram.h"
+	"Colliders.h"
 	<string>
 	<fstream>
 	<iostream>
@@ -2012,4 +2013,33 @@
 
 1556994892 source:c:\users\kamil\desktop\computergraphicsproject\shaderprogram.cpp
 	"shaderprogram.h"
+
+1558448165 c:\users\kamil\desktop\computergraphicsproject\colliders.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<stdlib.h>
+	<stdio.h>
+	"shaderprogram.h"
+	<string>
+	<fstream>
+	<vector>
+	<sstream>
+
+1558456720 source:c:\users\kamil\desktop\computergraphicsproject\colliders.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	"lodepng.h"
+	"shaderprogram.h"
+	"Colliders.h"
+	<cmath>
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
 

@@ -1,0 +1,2543 @@
+# Blender MTL File: 'budynki.blend'
+# Material Count: 243
+
+newmtl Building_Balcony
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.001_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.002_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.003_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.004_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.005_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.006_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony.008_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.001_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony2.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.003_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony2.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony2.005_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony2_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.147580 0.083693 0.062550
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.405649 0.130644 0.063020
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony3.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.405649 0.130644 0.063020
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony3.001_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.405649 0.130644 0.063020
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony3_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.405649 0.130644 0.063020
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.001_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.002_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.003_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.005_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.008_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.009_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.010_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony4.011_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Balcony4.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.336014 0.302519 0.275906
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Balcony_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Building_Ground
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.016
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Ground.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof2.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof3.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof5
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof5.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof5.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Roof5.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.265961 0.247575 0.240435
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides10
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides10.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides11
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides11.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides2.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides3
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides3.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides3.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides3.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides4
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides4.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides5
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides5.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides6.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides7.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides7.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides8
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides8.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides9
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Building_Sides9.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Door
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Andrew\Pictures\Pictures\Textures\BuildingsHighRise0411_9_S.jpg
+
+newmtl Door.004_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.016
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Door.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.099817 0.060948 0.037332
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.016
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_black.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.069200 0.069200 0.069200
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_brown
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.196961 0.152961 0.117622
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Floor_Roof_brown.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.196961 0.152961 0.117622
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Roof_painted
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Roof_painted.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124741 0.106295 0.081793
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.015
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.016
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.017
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.018
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.019
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.021
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.022
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.023
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.024
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.026
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Steel.027
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.353148 0.531231 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

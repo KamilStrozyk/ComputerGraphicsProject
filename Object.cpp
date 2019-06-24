@@ -10,7 +10,7 @@
 
 #include "lodepng.h"
 #include "shaderprogram.h"
-
+#include"Colliders.h"
 
 #include<string>
 #include<fstream>
@@ -28,6 +28,7 @@ Object::Object(string ObjPath, const char* TexPath)
 
     tex=readTexture(TexPath);
 }
+
 void Object::Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M)
 {
     float *ver= out_vertices.data();
@@ -126,6 +127,7 @@ void Object::LoadModel(string path)
                             vertexIndex[j]=vertexIndex[j]+info[j][i];
                         else if((p==1)&&info[j][i]!='/')
                             uvIndex[j]=uvIndex[j]+info[j][i];
+                         //   cout<<uvIndex[j]<<endl;}
                         else if((p==2)&&info[j][i]!='/')
                             normalIndex[j]=normalIndex[j]+info[j][i];
 
@@ -178,6 +180,7 @@ void Object::LoadModel(string path)
         for( unsigned int i=0; i<uvInd.size(); i++ )
         {
             unsigned int uvIndex = uvInd[i];
+           // cout<<uvIndex<<endl;
             glm::vec2 uv = temp_uvs[ uvIndex-1 ];
             out_uvs.push_back(uv.x);
             out_uvs.push_back(uv.y);
@@ -193,13 +196,13 @@ void Object::LoadModel(string path)
             out_normals.push_back(normal.z);
             out_normals.push_back(0.0f);
         }
-        /*int c=0;
-                    for(int i=0;i<out_normals.size();i++)
+     /*   int c=0;
+                    for(int i=0;i<out_uvs.size();i++)
                     {
 
-                        cout<<out_normals[i]<<",";
+                        cout<<out_uvs[i]<<",";
         c++;
-        if(c==4){cout<<endl;c=0;}
+        if(c==2){cout<<endl;c=0;}
                     }//*/
 
         cout<<"Model loaded successful"<<endl;
@@ -211,6 +214,7 @@ void Object::LoadModel(string path)
     file.close();
 
 }
+Object::Object(){};
 //Funkcja wczytująca teksturę
 GLuint Object::readTexture(const char* filename)
 {
@@ -244,54 +248,81 @@ unsigned int Object::strtoint(string s)
 
     return i;
 }
-glm::vec3 Collider::GetCenter()
-{
-return center;
-}
-float Collider::GetX()
-{
 
-   return size_x;
-}
-float Collider::GetY()
+float Object::GetMaxX()
 {
-
-   return size_y;
-}
-float Collider::GetZ()
+float maxX=out_vertices[0];
+for(int i=0;i<out_vertices.size();i+=4)
 {
+if(maxX< out_vertices[i]) maxX=out_vertices[i];
 
-   return size_z;
-}
-
-Collider::Collider(glm::vec3 c, float x, float y, float z)
-{
-    center=c;
-    size_x=x;
-    size_y=y;
-    size_z=z;
 
 }
-Collider::Collider()
+return maxX;
+}
+
+float Object::GetMaxY()
 {
-    center=glm::vec3(0.0f,0.0f,0.0f);
-    size_x=0;
-    size_y=0;
-    size_z=0;
+float maxY=out_vertices[1];
+for(int i=1;i<out_vertices.size();i+=4)
+{
+if(maxY< out_vertices[i]) maxY=out_vertices[i];
+
 
 }
-bool Collider::isCollisionDetected(glm:: vec3 plane_center, float X, float Y, float Z)
-{
-    // Collision x-axis?
-    bool collisionX = center.x + size_x >= plane_center.x &&
-        plane_center.x +X >= center.x;
-  bool collisionY = center.y + size_y >= plane_center.y &&
-        plane_center.y + Y >= center.y;
-  bool collisionZ = center.z + size_z >= plane_center.z &&
-        plane_center.z + Z >= center.z;
-
-
-    return (collisionX && collisionY)||(collisionX && collisionZ)||(collisionZ && collisionY);
+return maxY;
 }
+
+float Object::GetMaxZ()
+{
+float maxZ=out_vertices[2];
+for(int i=2;i<out_vertices.size();i+=4)
+{
+if(maxZ< out_vertices[i]) maxZ=out_vertices[i];
+
+
+}
+return maxZ;
+}
+float Object::GetMinX()
+{
+float minX=out_vertices[0];
+for(int i=0;i<out_vertices.size();i+=4)
+{
+if(minX> out_vertices[i]) minX=out_vertices[i];
+
+
+}
+return minX;
+}
+
+float Object::GetMinY()
+{
+float minY=out_vertices[1];
+for(int i=1;i<out_vertices.size();i+=4)
+{
+if(minY> out_vertices[i]) minY=out_vertices[i];
+
+
+}
+return minY;
+}
+
+float Object::GetMinZ()
+{
+float minZ=out_vertices[2];
+for(int i=2;i<out_vertices.size();i+=4)
+{
+if(minZ> out_vertices[i]) minZ=out_vertices[i];
+
+
+}
+return minZ;
+}
+
+
+
+
+//===============================================================================
 
 
