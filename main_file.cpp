@@ -195,6 +195,7 @@ angle_plane=0;
 void drawScene(GLFWwindow* window,float angle_z,float angle_y, Object * O, Object * G, Object * C, Object * P2, Object * S)
 {
      sp->use();
+
    //  diffuse->use();
   glUniform4f(sp->u("lp1"),0,0,-6,1); //Współrzędne źródła światła
   glUniform4f(sp->u("lp2"),34,34,-66,0.1); //Współrzędne źródła światła
@@ -209,7 +210,7 @@ void drawScene(GLFWwindow* window,float angle_z,float angle_y, Object * O, Objec
           glm::vec3(pos_x-10.0f,pos_y,pos_z-10.0f),
           glm::vec3(0.0f,1.0f,0.0f)); //Wylicz macierz widoku
 
-    P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 500.0f); //Wylicz macierz rzutowania
+    P=glm::perspective(50.0f*PI/180.0f, aspectRatio, 0.01f, 2000.0f); //Wylicz macierz rzutowania
 
     V=glm::rotate(V,angle_y,glm::vec3(-0.5f,0.0f,0.0f));
     V=glm::rotate(V,angle_plane,glm::vec3(0.0f,0.5f,0.0f));
@@ -228,15 +229,15 @@ void drawScene(GLFWwindow* window,float angle_z,float angle_y, Object * O, Objec
 
 
 //rysowanie budnykow
-for(int x=0;x<12;x++)
+for(int x=0;x<16;x++)
 {
-    for(int y=0;y<12;y++)
+    for(int y=0;y<16;y++)
     {
 
     M=glm::mat4(1.0f);
     M=glm::translate(M, glm::vec3(x*10.0f,-2.0f,y*10.0f));
   //   M=glm::scale(M, glm::vec3(2.0f,2.0f,2.0f));
-    Buildings[y%2]->Draw(sp,P,V,M);
+    Buildings[y%6]->Draw(sp,P,V,M);
     }
 
 }
@@ -262,7 +263,7 @@ P2->Draw(sp,P,V,M);
 
     M=glm::rotate(M,angle_plane,glm::vec3(0.0f,-1.0f,0.0f));
     M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
-    M=glm::translate(M, glm::vec3(pos_x-10.0f,pos_y,pos_z-10.0f));
+    M=glm::translate(M, glm::vec3(pos_x-10.0f,pos_y-1.0f,pos_z-10.0f));
     // gluLookAt(0, pos_y,pos_z -5,0,pos_y,pos_z, 0, 1, 0);
     M=glm::rotate(M,angle_z,glm::vec3(0.0f,0.0f,1.0f));
     M=glm::rotate(M,angle_y,glm::vec3(1.0f,0.0f,0.0f));
@@ -295,8 +296,9 @@ P2->Draw(sp,P,V,M);
  O->Draw(sp,P,V,M);
 diffuse->use();
 M=glm::mat4(1.0f);
-M=glm::scale(M,glm::vec3(200,200,200));
+M=glm::scale(M,glm::vec3(700,700,700));
   M=glm::rotate(M,skybox_angle,glm::vec3(0.0f,1.0f,0.0f));
+  M=glm::rotate(M,PI,glm::vec3(0.0f,0.0f,1.0f));
 S->Draw(diffuse,P,V,M);
     glfwSwapBuffers(window); //Przerzuæ tylny bufor na przedni
 }
@@ -333,14 +335,15 @@ int main(void)
         fprintf(stderr, "Nie mo¿na zainicjowaæ GLEW.\n");
         exit(EXIT_FAILURE);
     }
-
+     Object Ground("Resources/Models/ground.obj","Resources/Tex/ground.png");
+    //getch();
     initOpenGLProgram(window); //Operacje inicjuj¹ce
     Object Plane2("Resources/Models/Plane.obj","Resources/Tex/plane2.png");
     Object Plane("Resources/Models/Plane.obj","Resources/Tex/plane.png");
-    Object Cube("Resources/Models/skybox.obj","Resources/Tex/Skybox/plane.png");
-    Object Cloud("Resources/Models/clouds.obj","Resources/Tex/plane.png");
-    Object Ground("Resources/Models/ground.obj","Resources/Tex/ground.png");
-    for(int i=0;i<2;i++)
+    Object Cube("Resources/Models/skybox.obj","Resources/Tex/Skybox/whole.png");
+    Object Cloud("Resources/Models/clouds.obj","Resources/Tex/clouds.png");
+
+    for(int i=0;i<6;i++)
     {
           const char * tex="Resources/Tex/budynki.png";
         string  path="Resources/Models/budynek";

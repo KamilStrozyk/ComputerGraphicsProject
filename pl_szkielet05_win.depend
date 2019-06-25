@@ -1039,7 +1039,7 @@
 	<iostream>
 	"lodepng.h"
 
-1561413065 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
+1561469002 source:c:\users\kamil\desktop\computergraphicsproject\main_file.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -1051,6 +1051,7 @@
 	"lodepng.h"
 	"shaderprogram.h"
 	<ctime>
+	"myCube.h"
 	<string>
 	<fstream>
 	<iostream>
@@ -1994,7 +1995,7 @@
 	<vector>
 	<sstream>
 
-1561396357 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
+1561462371 source:c:\users\kamil\desktop\computergraphicsproject\object.cpp
 	"Object.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>

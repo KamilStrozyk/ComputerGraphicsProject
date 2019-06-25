@@ -19,7 +19,7 @@ out vec4 n;
 out vec4 v;
 
 out vec2 iTexCoord0;
-out vec2 iTexCoord1;
+
 
 void main(void) {
     l1=normalize(V*(lp1-M*vertex)); //Wektor "do światła" w przestrzeni oka
@@ -28,7 +28,7 @@ void main(void) {
     v=normalize(vec4(0,0,0,1)-V*M*vertex); //Wektor "do obserwatora" w przestrzeni oka
 
     iTexCoord0=texCoord0; //Zapewnienie interpolacji współrzędnych teksturowania podanych poprzez atrybut
-    iTexCoord1=(n.xy+1)/2; //Wyliczenie współrzędnych do environment mapping
+
 
     gl_Position=P*V*M*vertex;
 }

@@ -66,7 +66,7 @@ void Object::Draw(ShaderProgram *sp, glm::mat4 P,  glm::mat4 V,  glm::mat4 M)
     glVertexAttribPointer(sp->a("normal"),4,GL_FLOAT,false,0,nor); //Wska¿ tablicê z danymi dla atrybutu normal
 
     glEnableVertexAttribArray(sp->a("texCoord0"));  //W³¹cz przesy³anie danych do atrybutu color
-    glVertexAttribPointer(sp->a("texCoord0"),4,GL_FLOAT,false,0,uv); //Wska¿ tablicê z danymi dla atrybutu color
+    glVertexAttribPointer(sp->a("texCoord0"),2,GL_FLOAT,false,0,uv); //Wska¿ tablicê z danymi dla atrybutu color
 
     glDrawArrays(GL_TRIANGLES,0,vertexCount); //Narysuj obiekt
     glDisableVertexAttribArray(sp->a("vertex"));  //Wy³¹cz przesy³anie danych do atrybutu vertex
